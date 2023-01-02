@@ -1,0 +1,45 @@
+[
+ {
+  "accountno": 111,
+  "accountType": "SAVINGS" ,
+  "balance": "200" ,
+  "currency": "GBP" ,
+  "fundstatus": "TRUE",
+  "transaction": [
+   {
+    "transactiondate": "2022-04-04",
+    "amount": 10,
+    "transactiontype": "DEBIT",
+    "originaccount":"222"
+   },
+   {
+    "transactiondate": "2022-04-05",
+    "amount": 100,
+    "transactiontype": "DEBIT",
+    "originaccount":"333"
+   }
+  ]
+ },
+ {
+  "accountno": 222,
+  "accountType": "SAVINGS" ,
+  "balance": "300" ,
+  "currency": "GBP" ,
+  "fundstatus": "TRUE",
+  "transaction": [
+   {
+    "transactiondate": "2022-04-06",
+    "amount": 100,
+    "transactiontype": "DEBIT",
+    "originaccount":"222"
+   },
+   {
+    "transactiondate": "2022-04-09",
+    "amount": 9,
+    "transactiontype": "CREDIT",
+    "originaccount":"111"
+
+   }
+  ]
+ }
+]
